@@ -9,6 +9,9 @@ import NoteProvider from "@/providers/NoteProvider";
 
 export const metadata: Metadata = {
   title: "LOTI Notes",
+  icons: {
+    icon: "/jammy.jpeg",
+  },
 };
 
 export default function RootLayout({

@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "pnpm dlx prisma generate && next build",
+    "build": "pnpm exec prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
-    "migrate": "pnpm dlx prisma generate && env $(cat .env.local | xargs) pnpm dlx prisma migrate dev"
+    "migrate": "pnpm exec prisma generate && env $(cat .env.local | xargs) pnpm exec prisma migrate dev"
   },
   "prisma": {
     "schema": "src/db/schema.prisma"

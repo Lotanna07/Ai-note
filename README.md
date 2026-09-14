@@ -1,4 +1,4 @@
-🐐 Goat Notes — AI-Powered Notes App
+🐐 LOTI Notes — AI-Powered Notes App
 An AI-powered note-taking web app built with Next.js 15 and the OpenAI API. Users can sign up, log in, write and organize personal notes, and ask an AI assistant questions about their own notes — the AI reads through your notes and answers based on their content.
 ✨ What It Does
 📝 Create, edit, and delete notes — a simple, distraction-free note editor with autosave.
